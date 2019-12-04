@@ -1,0 +1,15 @@
+body {
+  background-color: grey;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+h1 {
+  color: rgb(116, 185, 255);
+  transition: color 0.5s ease-in-out;
+}
+.clicked{
+  color: rgb(255, 118, 117);
+}
