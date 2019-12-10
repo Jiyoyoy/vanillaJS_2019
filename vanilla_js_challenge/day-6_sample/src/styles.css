@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.wrpaer {
+  /* margin-top: -150px; */
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: "Monoton", cursive;
+  font-size: 5.1vw;
+  font-weight: normal;
+}
+
+select {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 68vw;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 40px;
+  /* line-height: 40px;*/
+}
+
+option {
+  text-align: center;
+  background-color: #c371ed;
+}
+
+.mapViewer {
+  margin-top: 30px;
+  width: 100%;
+  height: 30vw;
+  border-radius: 10px;
+  /* outline: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  background-size: contain;
+}
+
+.mapViewer-default {
+  font-size: 15vw;
+  display: none;
+}
+
+.mapViewer.default .mapViewer-default {
+  display: block;
+}
+
+.mapViewer.korea {
+  background: url("src/img/korea.jpg") no-repeat center;
+  background-size: cover;
+}
+.mapViewer.greece {
+  background: url("src/img/greece.jpg") no-repeat center;
+  background-size: cover;
+}
+.mapViewer.turkey {
+  background: url("src/img/turkey.jpg") no-repeat center;
+  background-size: cover;
+}
+.mapViewer.finland {
+  background: url("src/img/finland.jpg") no-repeat center;
+  background-size: cover;
+}
